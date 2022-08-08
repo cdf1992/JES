@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- 定义全局变量 -->
+	<property name="LOG_HOME" value="./jes-logs" />
+	<property name="LOG_NAME" value="jes" />
+	<property name="LOG_NAME_DATE" value=".%d{yyyy-MM-dd}" />
+	<property name="LOG_NAME_INDEX" value=".%i" />
+	<property name="LOG_NAME_SUFFIX" value=".log" />
+	<property name="LOG_PATH" value="${LOG_HOME}/${LOG_NAME}${LOG_NAME_DATE}${LOG_NAME_INDEX}${LOG_NAME_SUFFIX}" />
+	<property name="ERROR_LOG_PATH" value="${LOG_HOME}/${LOG_NAME}.error${LOG_NAME_DATE}${LOG_NAME_INDEX}${LOG_NAME_SUFFIX}" />
+	<property name="MAX_FILE_SIZE" value="100MB" />
+	<property name="MAX_HISTORY" value="10" />
+	<property name="ENCODER_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%thread] %c{0} - %m%n" />
+	<property name="ENCODER_CHARSET" value="UTF-8" />
+
+	<!-- 定义控制台输出 -->
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>${ENCODER_PATTERN}</pattern>
+		</encoder>
+	</appender>
+
+	<!-- 定义文件输出 -->
+	<appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_PATH}</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxHistory>${MAX_HISTORY}</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>${ENCODER_PATTERN}</pattern>
+			<charset>${ENCODER_CHARSET}</charset>
+		</encoder>
+	</appender>
+
+	<!-- 定义异常日志文件输出 -->
+	<appender name="errorRollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${ERROR_LOG_PATH}</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxHistory>${MAX_HISTORY}</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>${ENCODER_PATTERN}</pattern>
+			<charset>${ENCODER_CHARSET}</charset>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>ERROR</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+	</appender>
+
+	<!-- 设置为异步输出 -->
+	<appender name="async-console" class="ch.qos.logback.classic.AsyncAppender">
+		<appender-ref ref="console" />
+		<discardingThreshold>0</discardingThreshold>
+		<queueSize>512</queueSize>
+	</appender>
+	<appender name="async-rollingFile" class="ch.qos.logback.classic.AsyncAppender">
+		<appender-ref ref="rollingFile" />
+		<discardingThreshold>0</discardingThreshold>
+		<queueSize>512</queueSize>
+	</appender>
+	<appender name="async-errorRollingFile" class="ch.qos.logback.classic.AsyncAppender">
+		<appender-ref ref="errorRollingFile" />
+		<discardingThreshold>0</discardingThreshold>
+		<queueSize>512</queueSize>
+	</appender>
+
+	<!-- 精细化设置.指定包的日志级别 -->
+	<!--
+	<logger name="jes.shinosi.web.controller.GatewayController" level="DEBUG" />
+	-->
+	<!-- 精细化设置.指定包的输出位置以及日志级别 -->
+	<!--
+	<logger name="com.test.demo.dao" level="ERROR" additivity="false">
+		<appender-ref ref="async-errorRollingFile" />
+	</logger>
+	-->
+
+	<root level="DEBUG">
+		<appender-ref ref="async-console" />
+		<appender-ref ref="async-rollingFile" />
+		<appender-ref ref="async-errorRollingFile" />
+	</root>
+</configuration>

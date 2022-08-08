@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery-1.9.1.js"></script>
+		<script src="js/common.js"></script>
+		<script language="JavaScript" type="text/javascript">
+		var reqwbxml='';	
+		//税控盘信息查询
+		function querySKP()
+		{   
+		var sInputInfo = 
+			"<?xml version=\"1.0\" encoding=\"gbk\"?>\r\n<business id=\"SKPXXCX\" comment=\"税控盘信息查询\">\r\n<body yylxdm=\"1\">\r\n<input>\r\n<skpkl>"+document.getElementById("skpkl").value+"</skpkl>\r\n</input>"+"</body>\r\n</business>\r\n";
+			document.getElementById("inxml").value=sInputInfo;
+			document.getElementById("outxml").value="";
+            onExec("hqskp");
+				
+		}
+		//查下当前代码和号码 需确认纳税人识别号和发票类型
+		function queryDmhm()
+		{   
+		 	var sInputInfo = "<?xml version=\"1.0\" encoding=\"gbk\"?>\r\n"
+			+"<business id=\"GPXXCX\" comment=\"购票信息查询\">\r\n"
+			+"<body yylxdm=\"1\">\r\n"
+			+"<input>\r\n"
+			 +"<nsrsbh>"+"500102010003793"+"</nsrsbh>\r\n"
+			  +"<skpbh>"+"499000135939"+"</skpbh>\r\n"
+			 +"<skpkl>"+document.getElementById("skpkl").value+"</skpkl>\r\n"
+			   +"<keypwd>"+document.getElementById("szzskl").value+"</keypwd>\r\n"
+			  +"<fplxdm>007</fplxdm>\r\n"
+			   +"</input>\r\n"
+			 +"</body>\r\n"+"</business>\r\n";
+			 document.getElementById("inxml").value=sInputInfo;
+             document.getElementById("outxml").value="";
+		     onExec("gpxxcx");
+		}
+		 //注册码导入
+		 function zcmdr()
+			{
+			var sInputInfo = 
+			"<?xml version=\"1.0\" encoding=\"gbk\"?>\r\n<business id=\"ZCMDR\" comment=\"注册码信息导入\">\r\n<body yylxdm=\"1\">\r\n"
+            +"<zcmxx>"
+			+"0cea766314b4f601db39e6ab9cb1aff4d18c44462a6f67e7f6e0b30f5892d2056ebcf6b80049ee6fc5c5134404f2f7feba47283315842c32f631f1b0421313c8f47ca65def3754969616f7e16b86a9c27d7b68aab3a2ba7b64e6a6e16bbf74f587585ed0663146585c4f60fced42bf8c82a77e52f1a8cdd1514a57164af8a7b5093c0ca849f06fc1a21fdbd3d02ca1e2ebd0f736a54950d10d52a463e38330f4fd156d61f630cc8b2c897cfc12f91b8815b67cc4f0194c614914ee25965555b29fa416abbe4bfe7ed00af9f05991eec4b5269f8c78520670f5bdd096eee33746dbb6636e95603b17649e2a72f22db1e50cf7cc03ecea0794c814714deadaf51d"
+			+"</zcmxx>\r\n"
+			+"</body>\r\n</business>\r\n";
+			document.getElementById("inxml").value=sInputInfo;
+
+            document.getElementById("outxml").value="";
+			 onExec("drzcm");
+
+			
+		}
+		//发票开具，按照实际修改
+		function fpkj()
+		{
+        var sInputInfo = "<?xml version=\"1.0\" encoding=\"gbk\"?>\r\n"
+		 +"<business id=\"FPKJ\" comment=\"发票开具\">\r\n"
+		 +"<body yylxdm=\"1\">\r\n"
+         +"<input>\r\n"
+		 +"<skpbh>499000135939</skpbh>\r\n"   
+		 +"<skpkl>"+document.getElementById("skpkl").value+"</skpkl>\r\n"
+		 +"<keypwd>"+document.getElementById("szzskl").value+"</keypwd>\r\n"
+		 +"<fplxdm>007</fplxdm>\r\n"
+		 +"<kplx>0</kplx>\r\n"
+		 +"<tspz>00</tspz>\r\n"
+		 +"<xhdwsbh>500102010003793</xhdwsbh>\r\n"
+		 +"<xhdwmc>上海百旺金赋科技有限公司测试2</xhdwmc>\r\n"
+		 +"<xhdwdzdh>11</xhdwdzdh>\r\n"
+		 +"<xhdwyhzh>11</xhdwyhzh>\r\n"
+		 +"<ghdwsbh>50012345671180277</ghdwsbh>\r\n"
+		 +"<ghdwmc>测试银行</ghdwmc>\r\n"
+		 +"<ghdwdzdh>兴业银行621700182393822</ghdwdzdh>\r\n"
+		 +"<ghdwyhzh>11</ghdwyhzh>\r\n"
+		 +"<bmbbbh>32.0</bmbbbh>\r\n"
+		 +"<hsslbs>0</hsslbs>\r\n"
+		 +"<fyxm count=\"1\">\r\n"
+		 +"<group xh=\"1\">\r\n"
+		 +"<fphxz>0</fphxz>\r\n"
+		 +"<spmc>特约服务费</spmc>\r\n"
+		 +"<spsm></spsm>\r\n"
+		 +"<ggxh></ggxh>\r\n"
+		 +"<dw>个</dw>\r\n"
+		 +"<spsl>1</spsl>\r\n"
+		 +"<dj>358.49</dj>\r\n"
+		 +"<je>358.49</je>\r\n"
+		 +"<sl>0.06</sl>\r\n"
+		 +"<se>21.51</se>\r\n"
+		 +"<hsbz>0</hsbz>\r\n"
+		 +"<spbm>3020200000000000000</spbm>\r\n"
+		 +"<zxbm></zxbm>\r\n"
+		 +"<yhzcbs>0</yhzcbs>\r\n"
+		 +"<slbs></slbs>\r\n"
+		 +"<zzstsgl></zzstsgl>\r\n"
+		 +"</group>\r\n"
+		 +"</fyxm>\r\n"
+		 +"<zhsl>"+0.06+"</zhsl>\r\n"
+		 +"<hjje>358.49</hjje>\r\n"
+		 +"<hjse>21.51</hjse>\r\n"
+		 +"<jshj>380.00</jshj>\r\n"
+		 +"<bz></bz>\r\n"
+		 +"<skr>11</skr>\r\n"
+		 +"<fhr>11</fhr>\r\n"
+		 +"<kpr>11</kpr>\r\n"
+		 +"<jmbbh></jmbbh>\r\n"
+		 +"<zyspmc></zyspmc>\r\n"
+		 +"<spsm></spsm>\r\n"
+		 +"<qdbz>0</qdbz>\r\n"
+		 +"<ssyf></ssyf>\r\n"
+		 +"<kpjh>"+""+"</kpjh>\r\n"
+					 	
+		 +"<tzdbh></tzdbh>\r\n"
+		 +"<yfpdm></yfpdm>\r\n"
+		 +"<yfphm></yfphm>\r\n"	
+
+		 +"<qmcs>"+"0000004282000000"+"</qmcs>\r\n"	
+		 +"</input>\r\n"	
+		 +"</body>\r\n"
+		 +"</business>\r\n"
+          ;
+	   document.getElementById("inxml").value=sInputInfo;
+       document.getElementById("outxml").value="";
+
+	    onExec("fpkj");
+
+		}
+
+
+	    //发票打印
+		function fpdy()
+		{
+			  var sInputInfo = "<?xml version=\"1.0\" encoding=\"gbk\"?>\r\n"
+			+"<business id=\"FPDY\" comment=\"发票打印\">\r\n"
+			+"<body yylxdm=\"1\">\r\n"
+            +"<input>\r\n"
+		    +"<nsrsbh>500102010003793</nsrsbh>\r\n"
+			+"<skpbh>499000135939</skpbh>\r\n"
+	        +"<skpkl>"+document.getElementById("skpkl").value+"</skpkl>\r\n"
+		    +"<keypwd>"+document.getElementById("szzskl").value+"</keypwd>\r\n"
+			+"<fplxdm>007</fplxdm>\r\n"
+			+"<fpdm>050000000317</fpdm>\r\n"
+			+"<fphm>00312001</fphm>\r\n"
+			+"<dylx>0</dylx>\r\n"
+			+"<dyfs>1</dyfs>\r\n"
+			+"<dyjmc></dyjmc>\r\n"
+			+"</input>\r\n"
+			+"</body>\r\n"
+			+"</business>\r\n"
+			;
+		   document.getElementById("inxml").value=sInputInfo;
+           document.getElementById("outxml").value="";
+
+           onExec("drzcm");
+
+		}
+
+
+        function onExec(type,xml)
+		{
+			try{
+			  $.ajax({
+							type: "POST",                   //提交方式
+							url: "http://127.0.0.1:15000",   //提交的页面/方法名
+							data:xml,  
+							//参数（如果没有参数：null）  Base64.encode(）
+							//dataType: "text",               //类型
+							//contentType: "application/json; charset=utf-8",
+							crossDomain: true,
+							async: false,
+							beforeSend: function(XMLHttpRequest) {
+								 XMLHttpRequest.setRequestHeader("zjjklx", type);
+							},
+							success: function(msg) {                        
+							  var res = (new XMLSerializer()).serializeToString(msg);
+								//alert(res);
+								window.parent.retbwxml=res;
+							},
+							error: function(xhr, msg, e) {
+								 //console.log(msg);
+							     window.parent.retbwxml= "请检查本地服务是否启动！";
+							}
+						});
+				}
+			catch(e)
+				{
+					window.parent.retbwxml= e.message + ",errno:" + e.number;
+				}	
+			}
+		</script>
+
+
+
+	</head>
+	<body  bgcolor=#f0f0ff>
+
+<div align="center">
+<table border="2" cellspacing="0">
+<caption ><font size="6" color="#0000ff">税控盘组件调用示例</font></caption>
+<tr height=50>
+	<td width="1200" align="center">税控盘口令：<input type="text" id="skpkl" value="88888888">&nbsp;&nbsp;数字证书口令：<input type="text" id="szzskl" value="12345678"><input type="button" value="注册码导入" onclick="zcmdr();"></td>
+
+	
+</tr>
+
+<tr>
+<td ><textarea id="inxml" style="width:550px; height:300px"></textarea><input type="button" style="width:80px; height:80px" value="执行" onclick="onExec();"><textarea id="outxml" style="width:550px; height:300px"></textarea></td>
+</tr>
+</table>
+</div>
+		<h2>常用操作测试</h2>
+		<button id="btn" onclick="querySKP();">税控盘信息查询</button>
+		<button id="btn" onclick="queryDmhm();">查下当前代码号码</button>
+		<button id="btn" onclick="fpkj()"> 发票开具</button>
+		<button id="btn" onclick="fpdy();"> 发票打印</button>
+
+</body>
+</html>

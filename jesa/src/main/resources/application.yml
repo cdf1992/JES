@@ -1,0 +1,29 @@
+server:
+  port: 8080
+  ssl:
+    key-store: classpath:server.pfx
+    key-store-type: PKCS12
+    key-store-password: 123456
+  servlet:
+    context-path: /jes
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+  tomcat:
+    connectionTimeout: 300000
+spring:
+  application:
+    name: jesa
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 30MB
+      max-request-size: 30MB
+  main:
+    allow-bean-definition-overriding: true
+mybatis:
+  mapper-locations:
+    - classpath*:/jes/ioc/dao/sys/mysql/*.xml
+    - classpath*:/jes/ioc/dao/sys/oracle/*.xml
+    - classpath*:/jes/ioc/dao/sys/sqlserver/*.xml

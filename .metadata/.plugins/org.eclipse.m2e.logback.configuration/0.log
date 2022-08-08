@@ -1,0 +1,929 @@
+2022-08-02 15:18:36,828 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-02 15:18:37,230 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-02 15:18:37,380 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes.vms:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-02 15:18:37,400 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes.jpt_hfjx:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-02 15:18:37,420 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes.owl:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-02 15:18:38,432 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jesa/src/main/java
+2022-08-02 15:18:38,432 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /jesa/src/main/java overlaps with sources folder /jesa/src/main/java
+2022-08-02 15:18:38,432 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jesa/src/main/resources
+2022-08-02 15:18:38,542 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jesa/src/test/java
+2022-08-02 15:18:38,732 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2022-08-02 15:18:54,124 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-02 15:18:54,235 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes.vms:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-02 15:18:54,255 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes.jpt_hfjx:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-02 15:18:54,265 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes.owl:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-02 15:18:54,315 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:18:54,315 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\owl\lib
+2022-08-02 15:18:54,315 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\jpt\lib
+2022-08-02 15:18:54,315 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\vms\lib
+2022-08-02 15:18:54,325 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:18:54,415 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-02 15:19:17,577 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:19:17,577 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:19:30,400 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:19:30,400 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\owl\lib
+2022-08-02 15:19:30,410 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\jpt\lib
+2022-08-02 15:19:30,410 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\vms\lib
+2022-08-02 15:19:30,410 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:19:30,410 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:19:30,410 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:19:30,410 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:20:12,374 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:20:12,374 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\owl\lib
+2022-08-02 15:20:12,374 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\jpt\lib
+2022-08-02 15:20:12,374 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\vms\lib
+2022-08-02 15:20:12,374 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:20:12,374 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:20:12,374 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:20:12,374 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:20:35,148 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:20:35,148 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\owl\lib
+2022-08-02 15:20:35,148 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\jpt\lib
+2022-08-02 15:20:35,148 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\vms\lib
+2022-08-02 15:20:35,161 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:20:35,450 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-02 15:20:47,030 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:20:47,030 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:20:51,130 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:20:51,130 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\owl\lib
+2022-08-02 15:20:51,130 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\jpt\lib
+2022-08-02 15:20:51,130 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\..\vms\lib
+2022-08-02 15:20:51,130 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:20:51,350 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-02 15:20:51,790 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:20:51,790 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:20:58,210 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-02 15:20:58,380 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:20:58,380 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:20:58,380 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:20:58,390 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:20:58,390 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:21:05,300 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:21:05,300 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:21:05,540 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-02 15:21:16,317 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:21:16,317 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:21:26,805 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:21:26,810 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:21:27,672 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-02 15:21:44,411 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:21:44,411 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:22:05,804 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:22:05,804 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:22:05,804 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:22:05,806 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:22:05,806 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:33:17,902 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:33:17,912 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:33:18,012 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-02 15:33:18,492 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:33:18,492 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:34:29,182 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:34:29,192 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:34:29,192 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:34:29,192 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:34:29,192 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:34:31,704 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:34:31,704 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:34:31,704 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:34:31,714 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:34:31,714 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:35:34,655 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:35:34,655 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:35:34,655 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:35:34,655 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:35:34,655 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:39:51,817 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:39:51,817 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:39:51,817 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:39:51,817 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:39:51,817 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:39:59,537 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:39:59,537 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:39:59,537 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:39:59,537 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:39:59,537 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:40:01,907 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:40:01,907 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:40:01,907 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:40:01,917 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:40:01,917 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:40:13,037 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:40:13,037 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:40:13,037 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:40:13,047 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:40:13,047 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 15:56:26,255 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:56:26,255 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:56:26,255 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 15:56:26,255 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 15:56:26,255 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:16:59,539 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:16:59,539 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:16:59,539 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:16:59,541 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:16:59,541 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:17:01,776 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:17:01,776 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:17:01,776 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:17:01,778 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:17:01,778 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:17:50,552 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:17:50,552 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:17:50,552 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:17:50,554 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:17:50,554 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:46:24,303 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:46:24,303 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:46:24,303 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:46:24,306 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:46:24,306 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:46:34,470 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:46:34,471 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:46:34,471 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:46:34,472 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:46:34,472 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:46:37,049 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:46:37,049 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:46:37,049 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:46:37,050 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:46:37,050 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:47:10,471 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:47:10,471 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:47:10,471 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:47:10,476 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:47:10,477 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:47:46,207 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:47:46,208 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:47:46,208 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:47:46,209 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:47:46,209 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:47:52,136 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:47:52,136 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:47:52,136 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:47:52,137 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:47:52,137 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:47:54,850 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:47:54,851 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:47:54,851 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:47:54,852 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:47:54,852 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:48:26,600 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:48:26,600 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:48:26,601 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:48:26,602 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:48:26,602 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:58:10,513 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:58:10,523 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:58:10,523 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:58:10,523 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:58:10,523 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:58:18,918 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:58:18,918 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:58:18,918 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:58:18,918 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:58:18,918 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:58:21,308 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:58:21,308 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:58:21,308 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:58:21,308 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:58:21,308 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:58:53,368 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:58:53,368 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:58:53,368 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:58:53,368 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:58:53,368 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-02 16:59:59,298 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:59:59,298 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:59:59,298 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-02 16:59:59,298 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 16:59:59,298 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-04 10:04:13,753 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-04 10:04:13,768 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-04 10:04:13,862 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-04 10:04:27,297 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-04 10:04:27,297 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-04 10:11:25,549 [Worker-4] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:11:58,135 [Worker-4] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:13:43,893 [Worker-17] ERROR o.e.m.c.u.i.actions.OpenPomAction - Could not resolve artifact org.bouncycastle:bcprov-jdk15:pom:1.46
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.bouncycastle:bcprov-jdk15:pom:1.46
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616) [org.eclipse.m2e.editor.xml_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:15:46,675 [Worker-17] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:16:34,484 [Worker-25] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:16:43,435 [Worker-17] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:16:52,031 [Worker-29] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:16:55,369 [Worker-30] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:18:38,411 [Worker-31] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:19:17,368 [Worker-31] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:21:32,880 [Worker-33] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:22:34,284 [Worker-34] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:23:24,569 [Worker-36] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:24:17,154 [Worker-36] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-04 10:24:38,605 [Worker-33] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-08 14:15:07,128 [Worker-3] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+org.apache.maven.artifact.InvalidArtifactRTException: For artifact {null:jesa:null:jar}: The groupId cannot be empty.
+	at org.apache.maven.artifact.DefaultArtifact.validateIdentity(DefaultArtifact.java:130) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.artifact.DefaultArtifact.<init>(DefaultArtifact.java:123) ~[maven-artifact-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:564) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:524) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:518) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.XcreateArtifact(MavenRepositorySystem.java:476) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.bridge.MavenRepositorySystem.createArtifact(MavenRepositorySystem.java:79) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.initProject(DefaultProjectBuilder.java:704) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2022-08-08 14:15:53,309 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:15:54,161 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:15:55,432 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-kettle/kettle-engine/4.4.0-stable/kettle-engine-4.4.0-stable.pom
+2022-08-08 14:15:55,437 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:15:55,560 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:15:55,846 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:15:56,008 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-kettle/kettle-db/4.4.0-stable/kettle-db-4.4.0-stable.pom
+2022-08-08 14:15:56,010 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:15:56,436 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-kettle/kettle-db/4.4.0-stable/kettle-db-4.4.0-stable.pom
+2022-08-08 14:15:56,437 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:15:57,958 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:15:58,301 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:15:58,303 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:15:59,825 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:15:59,831 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:15:59,959 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-08 14:16:40,029 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:16:40,029 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:16:46,088 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:16:46,388 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:16:46,391 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:16:46,471 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:16:46,473 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:16:46,478 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:16:46,482 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:16:46,482 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:17:11,436 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.chinajes:build:1.0-SNAPSHOT @ D:\HF_BS_WORK\build\pom.xml.
+2022-08-08 14:17:11,925 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:17:12,495 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:17:12,755 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:17:12,756 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:17:14,999 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:17:15,257 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:17:15,258 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:17:15,463 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:17:15,467 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:17:15,467 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:17:15,469 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:17:15,469 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:18:50,134 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:18:50,135 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:18:50,135 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:18:50,137 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:18:50,137 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:19:00,110 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:19:00,111 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:19:00,111 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:19:00,112 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:19:00,113 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:21:15,998 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:21:16,002 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:21:16,436 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-08 14:21:28,650 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:21:28,650 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:21:41,484 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.chinajes:build:1.0-SNAPSHOT @ D:\HF_BS_WORK\build\pom.xml.
+2022-08-08 14:21:41,959 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:21:42,401 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:21:42,667 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:21:42,668 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:22:21,989 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:22:22,331 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:22:22,332 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:22:28,563 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-08 14:22:38,627 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:22:39,765 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:22:40,222 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-kettle/kettle-engine/4.4.0-stable/kettle-engine-4.4.0-stable.pom
+2022-08-08 14:22:40,223 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:22:40,867 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-kettle/kettle-db/4.4.0-stable/kettle-db-4.4.0-stable.pom
+2022-08-08 14:22:40,870 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:22:40,962 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:22:42,419 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/json-lib/json-lib/2.2.2/json-lib-2.2.2.jar
+2022-08-08 14:22:43,250 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-kettle/kettle-engine/4.4.0-stable/kettle-engine-4.4.0-stable.jar
+2022-08-08 14:22:44,762 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-kettle/kettle-db/4.4.0-stable/kettle-db-4.4.0-stable.jar
+2022-08-08 14:22:46,990 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jesa/src/main/java
+2022-08-08 14:22:46,991 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /jesa/src/main/java overlaps with sources folder /jesa/src/main/java
+2022-08-08 14:22:46,992 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jesa/src/main/resources
+2022-08-08 14:22:47,090 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jesa/src/test/java
+2022-08-08 14:22:54,012 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 25 sec
+2022-08-08 14:22:56,388 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:22:56,643 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:22:56,644 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:22:57,394 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:22:57,551 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:22:57,552 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:22:57,640 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-08 14:23:12,126 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:23:12,126 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:24:43,957 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:24:43,958 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:24:43,959 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:24:43,961 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:24:43,961 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:24:57,338 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:24:57,338 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:24:57,338 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:24:57,341 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:24:57,342 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:25:48,847 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:25:49,249 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:25:50,193 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-kettle/kettle-core/4.4.0-stable/kettle-core-4.4.0-stable.pom
+2022-08-08 14:25:50,194 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-core:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:25:50,196 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:25:50,197 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:25:50,247 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:25:51,067 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-kettle/kettle-core/4.4.0-stable/kettle-core-4.4.0-stable.jar
+2022-08-08 14:25:52,218 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:25:52,223 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:25:52,223 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:25:52,226 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:25:52,226 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:25:54,942 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:25:55,161 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-core:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:25:55,162 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:25:55,163 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:25:55,215 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:25:55,361 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:25:55,362 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:25:55,362 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:25:55,368 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:25:55,368 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:25:57,499 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:25:57,900 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:25:58,094 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-core:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:25:58,095 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:25:58,096 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:25:58,144 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:25:59,407 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:25:59,410 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:25:59,411 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:25:59,413 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:25:59,413 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:26:54,108 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:26:54,273 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:26:54,365 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:26:54,367 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:26:54,429 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:26:54,690 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:26:54,882 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:26:54,884 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:26:54,936 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:26:56,204 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:26:56,207 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:26:56,207 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:26:56,209 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:26:56,209 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:26:59,124 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:26:59,315 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:26:59,316 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:26:59,364 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:26:59,498 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:26:59,498 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:26:59,498 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:26:59,504 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:26:59,504 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:30:45,357 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:30:45,693 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:30:45,886 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:30:45,887 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:30:45,940 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:30:47,240 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:30:47,243 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:30:47,243 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:30:47,245 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:30:47,245 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:31:10,989 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:31:11,101 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:31:11,191 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:31:11,192 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:31:11,240 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:31:11,486 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:31:11,667 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:31:11,668 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:31:11,712 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:31:12,944 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:12,947 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:12,947 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:12,949 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:12,950 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:31:16,172 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:31:16,354 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-engine:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:31:16,355 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:31:16,427 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:31:16,561 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:16,561 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:16,561 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:31:16,567 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:16,568 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:31:25,088 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:31:25,566 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:31:25,794 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:31:25,846 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:31:27,094 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:27,096 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:27,097 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:27,098 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:27,098 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:31:30,243 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:31:30,433 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-kettle:kettle-db:jar:4.4.0-stable is missing, no dependency information available
+2022-08-08 14:31:30,483 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:31:30,615 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:30,615 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:30,616 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:31:30,621 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:30,621 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:31:43,499 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:31:43,844 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:31:44,070 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:31:45,434 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:45,437 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:45,437 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:45,439 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:45,439 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:31:49,208 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:31:49,438 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:31:49,569 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:49,569 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:49,569 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:31:49,574 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:49,575 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:31:56,191 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:31:56,587 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:31:56,813 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:31:58,056 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:58,059 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:58,060 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:31:58,061 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:31:58,061 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:32:01,104 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:32:01,360 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:32:01,493 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:32:01,493 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:32:01,493 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:32:01,499 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:32:01,499 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:32:59,389 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:32:59,734 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:32:59,958 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:33:01,125 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:01,128 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:01,128 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:01,130 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:01,130 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:33:03,785 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:33:04,088 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:33:04,229 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:04,229 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:04,229 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:33:04,235 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:04,235 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:33:20,474 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:20,474 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:20,474 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:20,475 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:20,476 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:33:25,531 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:25,531 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:25,531 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 20 resources
+2022-08-08 14:33:25,535 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:25,535 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:33:48,857 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:33:49,194 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:33:49,454 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:33:50,632 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:50,635 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:50,636 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:50,637 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:50,637 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:33:57,704 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:33:57,813 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:33:57,991 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:33:58,262 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:33:58,493 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:33:59,732 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:59,735 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:59,735 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:33:59,737 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:33:59,737 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:34:07,888 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:34:08,143 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:34:08,393 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:34:08,397 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:34:08,632 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-08 14:34:19,546 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:34:19,546 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:34:29,831 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:34:30,244 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:34:30,464 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:34:31,676 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:34:31,679 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:34:31,680 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:34:31,681 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:34:31,682 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:34:38,625 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:34:38,896 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:34:39,252 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chinajes:jesa:1.0-SNAPSHOT @ D:\HF_BS_WORK\jesa\pom.xml.
+2022-08-08 14:34:39,573 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:34:39,781 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:34:40,468 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:34:40,472 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:34:40,717 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-08 14:34:52,050 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:34:52,050 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:34:52,505 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 14:34:52,799 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1
+2022-08-08 14:35:06,380 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:35:06,385 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:35:06,610 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11633 resources
+2022-08-08 14:35:16,263 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:35:16,263 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:35:21,644 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:35:21,645 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:35:21,645 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:35:21,646 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:35:21,646 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 14:56:47,489 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:56:47,489 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:56:47,489 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-08 14:56:47,491 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-08 14:56:47,491 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\HF_BS_WORK\jesa\src\test\resources
+2022-08-08 15:19:25,562 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.chinajes:jes-api:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-08-08 15:19:26,460 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.xml:jaxrpc:jar:1.1 has been relocated to javax.xml:jaxrpc-api:jar:1.1

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>jesa</artifactId>
+	<packaging>jar</packaging>
+	<name>jesa</name>
+	<description>jesa 迁移至 springboot</description>
+	<properties>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		<version.spring-boot-mybatis>2.1.1</version.spring-boot-mybatis>
+		<version.log4j>2.15.0</version.log4j>
+		<version.poi>4.1.2</version.poi>
+		<version.org.apache.poi.xwpf.converter.xhtml>1.0.6</version.org.apache.poi.xwpf.converter.xhtml>
+		<version.commons-lang>2.6</version.commons-lang>
+		<version.commons-fileupload>1.4</version.commons-fileupload>
+		<version.commons-io>2.7</version.commons-io>
+		<version.commons-net>3.6</version.commons-net>
+		<version.commons-dbcp>1.4</version.commons-dbcp>
+		<version.druid>1.0.16</version.druid>
+		<version.p6spy>3.6.0</version.p6spy>
+		<version.batik-all>1.13</version.batik-all>
+		<version.xalan>2.7.2</version.xalan>
+		<version.jsch>0.1.55</version.jsch>
+		<version.jsqlparser>0.9.1</version.jsqlparser>
+		<version.bcprov>1.50</version.bcprov>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<includeSystemScope>true</includeSystemScope>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

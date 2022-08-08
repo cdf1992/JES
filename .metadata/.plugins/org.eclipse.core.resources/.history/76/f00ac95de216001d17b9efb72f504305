@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.3.1.RELEASE</version>
+		<relativePath />
+	</parent>
+	<groupId>com.chinajes</groupId>
+	<artifactId>build</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>build</name>
+	<description>迁移至 springboot 后创建的构建项目</description>
+
+	<properties>
+		<encoding>UTF-8</encoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+	</dependencies>
+
+	<!--
+		<module>../bsys</module>
+		<module>../dis2</module>
+		<module>../dna</module>
+		<module>../jes-api</module>
+		<module>../jes.ext</module>
+		<module>../jes.partner</module>
+		<module>../jes.toolkit</module>
+		<module>../jesa.home</module>
+		<module>../jesa.login</module>
+		<module>../jesa.main</module>
+		<module>../jesa.main3</module>
+		<module>../owl</module>
+		<module>../sessionKeeper</module>
+		<module>../vine</module>
+		<module>../beehive</module>
+		<module>../queen</module>
+		<module>../taxExt</module>
+		<module>../vms</module>
+		<module>../vms_hf</module>
+		<module>../jpt</module>
+		<module>../jpt_hfjx</module>
+		<module>../jesa</module>
+	-->
+	<modules>
+		<module>../jes-api</module>
+		<module>../taxExt</module>
+		<module>../jpt_hfjx</module>
+		<module>../vms</module>
+		<module>../vms_hf</module>
+	</modules>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+		<testSourceDirectory>src/test/java</testSourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<encoding>${encoding}</encoding>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<compilerArguments>
+						<verbose />
+						<bootclasspath>${java.home}/lib/rt.jar;${java.home}/lib/jce.jar</bootclasspath>
+					</compilerArguments>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
